@@ -40,3 +40,8 @@ def adicionar_despesa(despesa: Despesa): # Recebe e calcula as despesas por mora
 def root():
     """Rota inicial para verificar se a API está ativa."""
     return {"message": "API do Gerenciador de República funcionando!"}
+
+# Rota GET para verificar se as informações estão sendo recebidas
+@app.get("/despesas")
+def listar_despesas():
+    return {"message": "Use POST para adicionar despesas. Esta é uma resposta de teste."}
