@@ -1,0 +1,47 @@
+# Arquivos e diretórios gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Arquivos de ambiente virtual
+.env
+.env.local
+*.env
+
+# Arquivos gerados pelo projeto
+static/relatorio.csv
+static/relatorio.pdf
+static/*.csv
+static/*.pdf
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Dependências locais
+backend/.venv/
+frontend/.venv/
+
+# Arquivos do sistema operacional
+Thumbs.db  # Windows
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de cache do Streamlit
+.streamlit/
+*.cache
+
+# Outros arquivos desnecessários
+*.bak
+*.swp
