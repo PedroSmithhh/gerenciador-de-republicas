@@ -27,4 +27,4 @@ Para executar o sistema, siga os passos abaixo:
       ```bash
       uvicorn app.main:app
       ```
-    - Abra a interface streamlit através desse link:
+    - Abra a interface streamlit através desse link: https://gerenciador-de-republicas.streamlit.app

@@ -53,4 +53,4 @@ if st.button("Calcular e Gerar Relatórios"):
         st.error("Erro ao processar os dados. Verifique o backend.")
 
 # Rodapé
-st.write("Desenvolvido por [Seu Nome] - 2025")
+st.write("Desenvolvido por Pedro Israel da Rocha Smith - 2025")
